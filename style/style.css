@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --fonteTitulo: 'Press Start 2P', sans-serif;
+    --fonteTexto: 'IBM Plex Mono', sans-serif;
+    --cor0: black;
+    --cor1: #8C2F39; /* Vermelho */
+    --cor2: #C4A69D; /* Bege */
+    --cor3: #FCF0EB; /* Rosa */
+    --cor4: #000000; /* Preto */
+    --cor5: #fcfcf7; /* Branco */
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+.cabecalho,
+.rodape_logo {
+    background-color: var(--cor1);
+    font-family: var(--fonteTitulo);
+    font-size: 1.5rem;
+    color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 30px 50px 30px ;
+    padding: 60px 40px 60px 40px;
+    gap: 70px;
+    max-width: 100%;
+}
+
+.sessao__itens {
+    padding: 40px;
+    box-shadow: -10px 10px 10px 10px var(--cor2);
+}
+
+.sessao__inserir {
+    padding: 40px;
+}
+
+.mensagem__titulo {
+    font-family: var(--fonteTexto);
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sessao__titulo {
+    font-family: var(--fonteTitulo);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.sessao_itens_todos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+    height: 50vh;
+    flex-grow: 1;
+    padding: 40px 0 0 0 ;
+}
+
+.sessao__itens__itens {
+    font-family: var(--fonteTexto);
+    background-color: var(--cor1);
+    color: var(--cor4);
+    margin: 0 10px 40px 0;
+    width: 196px;
+    height: 269px;
+    max-width: 100%;
+    border: 3px solid var(--cor0);
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sessao__itens__imagem {
+    margin: 10px;
+    width: 176px;
+    height: 174px;
+    border-radius: 5px;
+    border: 3px solid var(--cor0);
+}
+
+.sessao__itens__titulo {
+    font-size: 0.9rem;
+    margin: 0 10px 10px 10px;
+    font-weight: 400;
+}
+
+.sessao__itens__valor__delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+}
+
+.sessao__itens__valor {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.formulario__campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao__inserir__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.campo__escrita {
+    border: 3px solid var(--cor2);
+    border-radius: 40px;
+    width: 392px;
+    height: 58px;
+    color: var(--cor1);
+    padding: 15px;
+    font-family: var(--fonteTexto);
+}
+
+.campo__escrita:focus {
+    border: 7px solid var(--cor1);
+}
+
+.formulario__botao {
+    gap: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario__botao__botao__limpar,
+.formulario__botao__botao__guardar {
+    border: 3px solid var(--cor2);
+    border-radius: 10px;
+    width: 188px;
+    height: 55px;
+    font-family: var(--fonteTexto);
+}
+
+.formulario__botao__botao__guardar {
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+.formulario__botao__botao__guardar
+{
+background-color: var(--cor2);
+}
+
+.formulario__botao__botao__limpar {
+color: var(--cor2);
+}
+
+.formulario__botao__botao__limpar
+{
+background-color: var(--cor3);
+color: var(--cor1);
+}
+
+.mensagem-erro {
+font-size: 0.8rem;
+color: red;
+}
+
+.rodape {
+background-color: var(--cor1);
+padding: 20px;
+text-align: center;
+color: var(--cor3);
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.rodape__titulo {
+font-family: var(--fonteTitulo);
+font-size: 1.5rem;
+font-weight: 400;
+text-align: center;
+}
+
+.rodape__texto {
+font-family: var(--fonteTexto);
+font-size: 1rem;
+font-weight: 400;
+}
+
+.redes_sociais {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 25px;
+}
+
+/* /////////////////////// TABLET ///////////////////////*/
+@media (max-width: 1023px) {
+    .sessao {
+    flex-direction: column-reverse;
+    margin: auto;
+    }
+}
+
+/* /////////////////////// MOBLILE ///////////////////////*/
+@media (max-width: 767px) {
+    .cabecalho,
+    .rodape_logo {
+    font-size: 1.5rem;
+    padding: 20px;
+    }
+    .logo__add {
+        display: none;
+    }
+
+    .sessao {
+        margin: 20px;
+        padding: 0;
+        gap: 70px;
+        max-width: 100%;
+    }
+
+    .sessao__titulo {
+        font-size: 1.5rem; 
+    }
+
+    .formulario__botao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sessao__titulo {
+        margin: 10px;
+    }
+
+    .sessao__inserir__formulario {
+        gap: 20px;
+    }
+}
+
+/* /////////////////////// MOBLILE - MENOR ///////////////////////*/
+@media (max-width: 400px) {
+    .campo__escrita {
+    width: 100%;
+    height: auto;
+    }
+
+    .sessao__titulo {
+        font-size: 0.75rem; 
+    }
+
+    .logo {
+        display: none;
+}
+}

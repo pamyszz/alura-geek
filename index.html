@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./assets/coracao.png" alt="coração">
+        <h1>AluraGeek</h1>
+        <img class="logo__add" src="./assets/coracao.png" alt="coração">
+    </header> 
+
+    <main class="sessao">
+
+        <section class="sessao__itens">
+            <h1 class="sessao__titulo">Meus Produtos:</h1>
+            <br>
+            
+            <ul class="sessao_itens_todos" alt="" data-lista>
+
+            </ul>
+
+        </section>
+
+        <section  class="sessao__inserir">
+            <form class="sessao__inserir__formulario" data-formulario>
+                <h1 class="sessao__titulo">Adicionar produto:</h1>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="nome"></label>
+                        <input class="campo__escrita" name="nome" type="text" placeholder="nome..." minlength="3" required data-nome/>
+                        <span class="mensagem-erro"></span> 
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="valor"></label>
+                        <input class="campo__escrita" name="valor" type="number" step="0.01" pattern="\d+(\.\d{2})?" placeholder="valor..." required data-valor/>
+                        <span class="mensagem-erro"></span> 
+                    </div>
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagem"></label>
+                        <input class="campo__escrita" name="imagem" type="url" placeholder="url-imagem..." required data-imagem/>
+                        <span class="mensagem-erro"></span> 
+                    </div>
+                    <div class="formulario__botao">
+                        <button class="formulario__botao__botao__guardar" type="submit">Guardar</button>
+                        <button class="formulario__botao__botao__limpar" type="reset">Limpar</button>
+                    </div>
+            </form>
+        </section>
+        
+    </main> 
+
+    <footer class="rodape">
+        <div class="rodape_logo">
+            <img class="logo" src="./assets/coracao.png" alt="coração">
+            <h1 class="rodape__titulo">AluraGeek</h1>
+            <img class="logo__add" src="./assets/coracao.png" alt="coração">
+        </div>
+        <p class="rodape__texto">Desenvolvido por Pamela Miranda de Oliveira</p>
+        <p class="rodape__texto">2024</p>
+        <div class="redes_sociais">
+            <a href="https://github.com/pamyszz" target="_blank">
+                <img src="./assets/github.svg" alt="imagem github">
+            </a>
+            <a href="https://www.linkedin.com/in/pamelami-frontend/" target="_blank">
+                <img src="./assets/linkedin.svg" alt="imagem linkedin">
+            </a>
+            <a href="https://www.instagram.com/pamyy_szz/" target="_blank">
+                <img src="./assets/instagram.svg" alt="imagem instagram">
+            </a>
+        </div>
+    </footer>
+
+    <script src="./script/mostrarProtudos.js" type="module"></script>
+    <script src="./script/criarProdutos.js" type="module"></script>
+    <script src="./script/excluiProdutos.js" type="module"></script>
+    <script src="./script/conectaApi.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+{
+  "produtos": [
+    {
+      "nome": "Robô Elétrico",
+      "valor": "600.00",
+      "imagem": "https://cdn.pixabay.com/photo/2020/05/17/11/59/robot-5181307_1280.jpg",
+      "id": 2
+    },
+    {
+      "nome": "Apple Imac",
+      "valor": "14390.90",
+      "imagem": "https://cdn.pixabay.com/photo/2015/01/21/14/14/apple-606761_1280.jpg",
+      "id": 3
+    },
+    {
+      "nome": "Macbook",
+      "valor": "7489.90",
+      "imagem": "https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196_1280.jpg",
+      "id": 4
+    },
+    {
+      "nome": "Phantom System",
+      "valor": "149.90",
+      "imagem": "https://lojinhadomoises.com.br/wp-content/uploads/sites/4754/2023/02/WhatsApp-Image-2023-12-28-at-15.00.25.jpeg",
+      "id": 5
+    },
+    {
+      "nome": "Nintendo 64 Pikachu",
+      "valor": "799.50",
+      "imagem": "https://i.ebayimg.com/images/g/gawAAOSwwydkITrS/s-l1200.webp",
+      "id": 6
+    },
+    {
+      "nome": "Game Boy",
+      "valor": "499.00",
+      "imagem": "https://cdn.pixabay.com/photo/2016/02/15/17/48/nintendo-game-boy-1201692_1280.jpg",
+      "id": 7
+    },
+    {
+      "nome": "Video Game",
+      "valor": "990.00",
+      "imagem": "https://cdn.pixabay.com/photo/2017/04/04/18/17/video-game-console-2202660_1280.jpg",
+      "id": 8
+    },
+    {
+      "nome": "Realidade virtual",
+      "valor": "190.90",
+      "imagem": "https://cdn.pixabay.com/photo/2017/02/10/14/10/virtual-2055227_1280.png",
+      "id": 9
+    },
+    {
+      "nome": "XBox",
+      "valor": "2990.00",
+      "imagem": "https://cdn.pixabay.com/photo/2017/04/04/18/18/video-game-console-2202663_1280.jpg",
+      "id": 10
+    },
+    {
+      "nome": "Turtle Slalom",
+      "valor": "149.00",
+      "imagem": "https://cdn.pixabay.com/photo/2018/11/22/13/43/turtle-3831990_1280.jpg",
+      "id": 11
+    },
+    {
+      "nome": "Brick Game",
+      "valor": "39.00",
+      "imagem": "https://a-static.mlcdn.com.br/450x450/videogame-games-antigos-mini-game-portatil-infantil-com-9999-jogos-em-1-console-movido-a-pilha-kids-online/filialreidoimportado/gh-3835870/385f3bcc9dbdfb63fffe23fdd5fdd51e.jpeg",
+      "id": 13
+    }
+  ]
+
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
+      "descricao": "3 mil visualizações",
+      "url": "https://www.youtube.com/embed/y8FeZMv37WU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "2",
+      "titulo": "Desmistificando mobile - Linguagens e Frameworks",
+      "descricao": "1,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/fmu1LQvZhms",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "3",
+      "titulo": "Orientação a objetos com Roberta Arcoverde | #Hipster...",
+      "descricao": "30 mil visualizações",
+      "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "4",
+      "titulo": "Linguagens e ferramentas usadas em Ciência de Dados...",
+      "descricao": "2,5 mil visualizações",
+      "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "5",
+      "titulo": "Reencontrando a paixão por programar: Beatriz Ramerindo",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/CnB3eLTrkn4",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "6",
+      "titulo": "Híbridos: Flutter e React Native | Desmistificando..",
+      "descricao": "1,6 mil visualizações",
+      "url": "https://www.youtube.com/embed/vf9P_PycgRw",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "7",
+      "titulo": "Data Science na prática- com Jéssika Ribeiro do Grupo...",
+      "descricao": "3,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "id": "8",
+      "titulo": "baNaNa | Memes do JavaScript #2",
+      "descricao": "1,2 mil visualizações",
+      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+    },
+    {
+      "titulo": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
+      "descricao": "1 mil visualizações",
+      "url": "https://www.youtube.com/embed/z43rcfjXOxU",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "9"
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "9 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "10"
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "4 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "11"
+    },
+    {
+      "titulo": "Educação coorporativa",
+      "descricao": "7 mil visualizações",
+      "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
+      "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
+      "id": "12"
+    },
+    {
+      "id": "dd08",
+      "titulo": "Vale a pena estudar na Alura? Iniciante em programação",
+      "descricao": "2 mil visualizações",
+      "url": "https://www.youtube.com/embed/jImKLWqnexc",
+      "imagem": "https://i.ytimg.com/vi/jImKLWqnexc/maxresdefault.jpg"
+    },
+    {
+      "id": "b070",
+      "titulo": "FACULDADE vs PROGRAMAÇÃO vs MERCADO # Alura.MD 001",
+      "descricao": "5 mil visualizações",
+      "url": "https://www.youtube.com/embed/zzpVZlo5KIs",
+      "imagem": "https://i.ytimg.com/vi/zzpVZlo5KIs/maxresdefault.jpg"
+    },
+    {
+      "id": "dda4",
+      "titulo": "Qual o melhor caminho pra quem está começando em programação?",
+      "descricao": "6 mil visualizações",
+      "url": "https://www.youtube.com/embed/d8L4vk9oU-g",
+      "imagem": "https://hermes.dio.me/articles/share/qual-o-melhor-caminho-para-iniciar.png"
+    }
+  ]
+}
